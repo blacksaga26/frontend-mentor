@@ -94,7 +94,7 @@ body{
 
 .card__footer{
     display: grid;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card__footer__social{
