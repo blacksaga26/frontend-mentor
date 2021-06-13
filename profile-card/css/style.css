@@ -93,7 +93,7 @@ body{
 }
 
 .card__footer{
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
 }
 
@@ -116,7 +116,7 @@ body{
     font-size: 1.2rem;
 }
 
-.attribution {
+.attribution{
     justify-self: flex-end;
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -127,13 +127,13 @@ body{
     padding: 1rem;
   }
 
-.attribution a {
+.attribution a{
     text-decoration: none;
     color: hsl(228, 45%, 80%);
     transition: color .5s ease;
 }
 
-.attribution a:hover {
+.attribution a:hover{
     color: hsl(228, 45%, 60%);
     transition: color .5s ease;
 }
