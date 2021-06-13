@@ -93,7 +93,7 @@ body{
 }
 
 .card__footer{
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
 }
 
